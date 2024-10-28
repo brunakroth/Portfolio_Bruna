@@ -1,0 +1,212 @@
+body {
+    background-image: url(../image/Fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.banner {
+    background-image: url(../image/Banner.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 10px;
+    background-size: cover;
+    margin: 130px 180px 0px 180px;
+    /* width: 1500px; */
+    height: 310px;
+    text-align: center;
+    font-style: italic;
+}
+
+.inicio {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 50px 0px 0px;
+
+    h1 {
+        font-size: 30px;
+        padding: 0px 60px;
+        color: blueviolet;
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    p {
+        font-size: 14px;
+        align-content: center;
+        text-align: justify;
+        background-color: rgba(137, 43, 226, 0.521);
+        border-radius: 10px;
+        margin: 20px;
+        padding: 0px 30px;
+    }
+
+    #imagem_bruna {
+        max-width: 250px;
+        border-radius: 10px;
+    }
+}
+
+.projetos {
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 10px 35px 0px 35px; */
+
+    #img_projetos {
+        max-height: 350px;
+        border-radius: 10px;
+    }
+}
+
+.menu {
+    position: fixed;
+    z-index: 2;
+    /* para sobrepor os elementos abaixo */
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    text-align: center;
+    height: 100px;
+
+    ul {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+    }
+
+    li {
+        display: inline;
+    }
+
+    a {
+        font-size: 35px;
+        border-radius: 5px;
+        background-color: rgba(27, 209, 209, 0.8);
+        padding: 20px;
+        text-decoration: none;
+        transition: all 0.2s;
+    }
+
+    a:hover {
+        background-color: rgba(18, 163, 163, 0.8);
+        font-size: 40px;
+        font-weight: bolder;
+        letter-spacing: 3px;
+
+    }
+
+}
+
+
+article {
+    position: relative;
+    text-align: justify;
+    min-height: 0px;
+    padding: 1px;
+    background-color: rgba(194, 233, 233, 0.623);
+    border-radius: 10px;
+    margin: 2px 180px;
+
+    h1 {
+        font-size: 24px;
+        padding: 0px 60px;
+        color: blueviolet;
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    
+
+    p {
+        list-style-type: upper-roman;
+        color: black;
+        font-weight: normal;
+        font-size: 16px;
+        padding: 0px 60px;
+        text-align: justify;
+    }
+}
+
+.contato {
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 24px 0;
+    }
+
+    li {
+        min-width: 500px;
+        padding: 0% 20%
+    }
+
+    ul li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 24px;
+        background-color: blueviolet;
+        border: 1.5px solid rgb(49, 2, 94);
+        border-radius: 8px;
+        backdrop-filter: blur(4px);
+        text-decoration: none;
+        font-size: 20px;
+        transition: all 0.2s;
+    }
+
+    ul li a:hover {
+        background: rgba(137, 43, 226, 0.349);
+        font-size: 24px;
+        border: 1.5px solid rgb(62, 4, 116);
+
+    }
+
+    /* social links*/
+    #social-links {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 24px 0;
+        font-size: 40px;
+
+    }
+
+    #social-links a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 16px;
+        transition: all 0.2s;
+        border-radius: 50%;
+        color: rgb(62, 4, 116);
+    }
+
+    a:hover {
+        background: rgba(137, 43, 226, 0.349);
+        padding: 16px;
+        transition: all 0.2s;
+    }
+
+    a:visited {
+        outline: 0;
+        border: none;
+    }
+}
+
+footer {
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 8px;
+
+    div {
+        font-weight: bolder;
+    }
+
+    address {
+        font-size: 16px;
+    }
+}
